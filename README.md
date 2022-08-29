@@ -69,9 +69,23 @@ $ cd Companyintranet_freashwork
 
     npm start
 
+## Running the storybook
+
+We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
+
+## Install and Initializes
+
+     npx storybook init
+
+## Run the Storybook
+
+      npm run storybook
+
+
 #### 3. [Create Supabase database](https://supabase.com/docs/guides/database)
 #### 4. [Freshteam setup](https://developers.freshteam.com/api/)
     
+
 <h3><u>Where to get the token?</u></h3>
 
   1. Create account on freshteam and To find the API key that you can use to integrate Freshteam with any of the systems you are using, you need the API key, which you can find by following these simple steps.
