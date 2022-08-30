@@ -18,7 +18,7 @@ export const getBranches = (payload) =>
     ...payload,
     headers: {
       accept: "application/json",
-      Authorization: "Bearer VCcK26hV70FYHIsD2h2spA",
+      Authorization: <Token>,
       "content-type": "application/json",
       ...payload?.headers,
     },
@@ -29,7 +29,7 @@ export const getBranches = (payload) =>
     ...payload,
     headers: {
       accept: "application/json",
-      Authorization: "Bearer VCcK26hV70FYHIsD2h2spA",
+      Authorization: <Token>,
       "content-type": "application/json",
       ...payload?.headers,
     },
@@ -40,10 +40,8 @@ export const getEmployeecapabilityselect = (payload) =>
     ...payload,
     params: { select: "*", ...payload?.params },
     headers: {
-      apikey:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
+      apikey: <api key>,
+      Authorization:<<Token>,
       Range: "0-9",
       "content-type": "application/json",
       ...payload?.headers,
@@ -54,10 +52,8 @@ export const getEmployeecapabilityselect = (payload) =>
     ...payload,
     params: { id: `eq.${payload?.params.id}` },
     headers: {
-      apikey:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
+       apikey: <api key>,
+      Authorization:<<Token>,
       Range: "0-9",
       "content-type": "application/json",
       ...payload?.headers,
@@ -70,9 +66,8 @@ export const patchEmployeecapabilityideq5 = (payload) =>
     params: { id: `eq.${payload?.params.id}` },
     headers: {
       apikey:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
+       apikey: <api key>,
+      Authorization:<<Token>,
       "Content-Type": "application/json",
       Prefer: "return=representation",
       "content-type": "application/json",
@@ -84,10 +79,8 @@ export const postEmployeecapability = (payload) =>
   apis.post(API_URLS.POST_EMPLOYEECAPABILITY, {
     ...payload,
     headers: {
-      apikey:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwc3BlemNhbnFvcHdnenR6eW14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTczNDgwNTksImV4cCI6MTk3MjkyNDA1OX0.xcmHxepkSt8oG5-a3vr8R8vB4rVxxqL_yS8il1HwDEY",
+      apikey: <api key>,
+      Authorization:<<Token>,
       "Content-Type": "application/json",
       ...payload?.headers,
     },
@@ -98,7 +91,7 @@ export const getEmployees = (payload) =>
     ...payload,
     headers: {
       accept: "application/json",
-      Authorization: "Bearer VCcK26hV70FYHIsD2h2spA",
+      Authorization: <Token>,
       "content-type": "application/json",
       ...payload?.headers,
     },
